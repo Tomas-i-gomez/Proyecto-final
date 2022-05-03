@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.buttons {
+    background-color: #728f9d;
+    border: none;
+}
+
+.buttons:hover {
+    background-color: #8dafc0;
+}
+
+
+section {
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.home {
+    padding: 0;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: justify;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.border-bottom {
+    border: none;
+}
+
+.title {
+    padding-bottom: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "BlinkMacSystemFont", "Segoe UI", "Roboto, Oxygen, Ubuntu, Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
+    color: black;
+}
+.image-logo {
+    width: 300px;
+}
+.rrss {
+    width: 75px;
+}
+
+.proyect-images {
+    align-items: center;
+    width: 300px;
+    transition: width 0.5s;
+    cursor: hand;
+}
+
+.proyect-images:hover {
+    width: 350px;
+}
+
+
+a {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3d3f41;
+}
+
+footer {
+    padding-top: 5px;
+    background-color: black;
+}
+
+.image {
+    width: 75px;
+}
+
+h3 {
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+/* HEADER */
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rrss-horizontales {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    order: 2;
+}
+
+.image {
+    width: 65px;
+}
+.image-logo {
+    width: 350px;
+}
+
+.section-name a {
+    padding: 1.5rem;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+}
+.section-name a:visited {
+    color: #000000;
+    text-decoration: underline;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* BODY */
+.wrapper {
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .typing-demo {
+    width: 200px;
+    animation: typing 2s steps(10), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-family: monospace;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+  .typing-demo-proyects {
+    width: 11em;
+    animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-family: monospace;
+    padding: 20px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .typing-demo-form {
+    width: 13em;
+    animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-family: monospace;
+    padding: 20px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.configuration-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url(https://i.ibb.co/MPWbhFv/fondo-marmol.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.configuration-title {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: "BlinkMacSystemFont", "Segoe UI",
+    "Roboto, Oxygen, Ubuntu, Cantarell", "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+.configuration-content {
+    text-align: justify;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, "Times New Roman", serif;
+}
+.servicios {
+    background-color: #cfd8dd;
+}
+.contacto {
+    background-color: #cfd8dd;
+}
+.trabajos {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    background-color: #cfd8dd;
+}
+td {
+    border: 2.5px solid black;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, "Times New Roman", serif;
+}
+.table-title {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list-trabajos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+/* FOOTER */
+.logo-footer {
+    width: 150px;
+}
+
+.title-footer {
+    padding-bottom: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "BlinkMacSystemFont", "Segoe UI", "Roboto, Oxygen, Ubuntu, Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+}
+
+
+/* FORMULARIOS */
+
+.formulario {
+    height: 100vh;
+    background: #cfd8dd;;
+    font-family: 'Balsamiq Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 70%;
+    padding: 30px 90px 90px 90px;
+    border: 6px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    position: relative;
+}
+
+.card h2 {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.card .row {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid: auto / auto auto;
+    grid-template-columns: repeat(auto-fit,minmax(40%, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .card .row .col {
+    position: relative;
+    width: 100%;
+    margin: 30px 20px 40px 0;
+    transition: 0.5s;
+  }
+  
+  .card .row .form-group {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #728f9d;
+  }
+  
+  .card .row .form-group input,
+  .card .row .form-group textarea {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 24px;
+    padding: 10px 0 10px 20px;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    color: #161414;
+    border-radius: 50px;
+  }
+  
+  .card .row .form-group label {
+    line-height: 40px;
+    color: #0f0c0c;
+    font-size: 24px;
+    margin: 0 0 0 30px;
+    display: block;
+    pointer-events: none;
+  }
+  
+  .row .col:nth-child(6) {
+    margin-top: 64px;
+  }
+  
+  .card .row .form-group input:focus,
+  .card .row .form-group textarea:focus {
+    border: 5px solid #0c0a0a;
+    transition: all 0.5s;
+  }
+  
+  .card .row input[type="submit"] {
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    text-transform: uppercase;
+    color: #130f0f;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 45px;
+    transition: all 0.4s;
+  }
+  
+  .card .row input[type="submit"]:hover {
+    border: 5px solid rgb(15, 12, 12);
+    color: #272222;
+    transition: all 0.4s;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .card .row {
+      grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
+    }
+    
+    .card {
+      padding: 20px;
+    }
+    
+    .card h2 {
+      font-size: 30px;
+    }
+    
+    .card .row input[type="submit"] {
+      width: 100%;
+    }
+}
+
+
+
+
+
