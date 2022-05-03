@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header {
@@ -28,7 +27,10 @@ header {
 section {
     padding-top: 30px;
     padding-bottom: 35px;
-    background-color: #cfd8dd;
+}
+
+.home {
+    padding: 0;
 }
 
 p {
@@ -46,11 +48,11 @@ p {
 }
 
 .title {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     text-align: center;
     font-style: oblique;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: "BlinkMacSystemFont", "Segoe UI", "Roboto, Oxygen, Ubuntu, Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
     color: black;
 }
@@ -74,20 +76,18 @@ p {
 
 
 a {
-    color: black;
-    font-size: x-large;
+    color: white;
+    font-size: large;
     text-decoration: none;
 }
 
 a:hover {
-    color: #8dafc0;
+    color: #3d3f41;
 }
 
 footer {
-    padding: 30px;
-    margin: 0px;
-    background-color: #728f9d;
-    border-top: 5px solid black;
+    padding-top: 5px;
+    background-color: black;
 }
 
 .image {
@@ -99,18 +99,16 @@ h3 {
     justify-content:flex-start;
     align-items:center;
     font-family: "Courier New", Courier, monospace;
-    background-color: #8dafc0;
 }
 /* HEADER */
-.header-container {
-    padding: 10px;
-    margin: 0%;
-    background-color: #728f9d;
-    border-bottom: 5px solid black;
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+
 .logo {
-    background-color: #8dafc0;
     font-family: "Courier New", Courier, monospace;
     font-style: italic;
 }
@@ -139,7 +137,7 @@ h3 {
     padding: 1.5rem;
     color: black;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 20px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-decoration: none;
 }
@@ -153,6 +151,8 @@ nav {
 }
 
 /* BODY */
+
+
 .configuration-container {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -207,6 +207,22 @@ td {
     align-items: center;
     list-style-type: none;
 }
+
+/* FOOTER */
+.logo-footer {
+    width: 150px;
+}
+
+.title-footer {
+    padding-bottom: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "BlinkMacSystemFont", "Segoe UI", "Roboto, Oxygen, Ubuntu, Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+}
+
 
 /* FORMULARIOS */
 

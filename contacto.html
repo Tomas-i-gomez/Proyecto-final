@@ -13,38 +13,54 @@
     <title>Contacto</title>
     </head>
     <body>
-        <header class="header-container">
-            <!--Lista horizontal-->
-            <nav>
-            <h1 class="logo">LIKE YOU BE</h1>
-            <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-primary section-name buttons"><a href="index.html">HOME</a> </button>
-                <button type="button" class="btn btn-primary section-name buttons"><a href="servicios.html">Servicios</a></button>
-                <button type="button" class="btn btn-primary section-name buttons"><a href="acercade.html">Acerca de</a></button>
-                <button type="button" class="btn btn-primary section-name buttons"> <a href="nuestros-trabajos.html">Nuestros Proyectos</a></button>
-                <button type="button" class="btn btn-primary section-name buttons"><a href="contacto.html">Contacto</a></button>
-            </div>
-            <ul class="rrss-horizontales">
-                <li>
-                <a href="https://web.whatsapp.com/"><img
+      <header>
+        <!--Lista horizontal-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-black">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img
                     class="rrss"
-                    src="./imagenes/whatsappblack.png"
-                    alt="icono whatsapp"
+                    src="./imagenes/logochico.jpeg"
+                    alt="logo"
                 /></a>
-                </li>
-                <li>
-                <!--La cuenta de LINKEDIN aun no está creada-->
-                <a href="https://ar.linkedin.com/"
-                    ><img
-                    class="rrss"
-                    src="./imagenes/linkedinblack.png"
-                    alt="icono linkedin"
-                /></a>
-                </li>
-            </ul>
-            <!-- en este lugar pondria mi LOGO-->
+                  <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-white"></span>
+                  </button>
+                  <div class="collapse navbar-collapse header-bar" id="navbarNav">
+                    <ul class="navbar-nav header-bar text-white bg-black flex-grow-1 p-2 bd-highlight">
+                      <li class="nav-item button-animation">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="servicios.html">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="acercade.html">Acerca de</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="nuestros-trabajos.html">Nuestros Proyectos</a>
+                      </li>
+                      <li class="nav-item text-white flex-grow-1">
+                        <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://web.whatsapp.com/"><img
+                            class="rrss"
+                            src="./imagenes/WhatsApp.svg.png"
+                            alt="icono whatsapp"
+                        /></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://ar.linkedin.com/"><img
+                            class="rrss"
+                            src="./imagenes/linkedinsvg.png"
+                            alt="icono linkedin"
+                        /></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
             </nav>
-        </header>
+    </header>
         <div class="contacto">
 </div>
     <!-- Acá iria el formulario-->
@@ -98,23 +114,22 @@
 
 
     <footer>
-        <!-- Aca nuevamente iria mi logo-->
-            <h2 class="title">Contactanos</h2>
-        <div class="container title">
-            <div class="row">
-                <div class="col-2"><h3>LIKE YOU BE </h3>
-                </div>
-                <div class="col-12"> <a href="https://gmail.com/"><img src="imagenes/gmail.png" alt="icono gmail" class="rrss"> tomas.gomez@likeyoube.com </a>
-                </div>
-                <div class="col-12"> <a href="https://gmail.com/"><img src="imagenes/gmail.png" alt="icono gmail" class="rrss"> diego.gomez@likeyoube.com </a>
-                </div>
-                <div class="col-12"> <a href="https://whatsapp.com/"> <img src="imagenes/whatsappblack.png" alt="whatsapp" class="rrss"> Tomas Gomez: 3425275569 </a>
-                </div>
-                <div class="col-12"> <a href="https://whatsapp.com/"> <img src="imagenes/whatsappblack.png" alt="whatsapp" class="rrss"> Diego Gomez: 3426317468 </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+      <!-- Aca nuevamente iria mi logo-->
+          <h2 class="title-footer">Contactanos</h2>
+      <div class="container title">
+          <div class="row">
+              <div class="col"><h3><a href="index.html"><img class="logo-footer"
+                  src="./imagenes/logochico.jpeg"
+                  alt="logo"
+              /></a></h3>
+              </div>
+              <div class="col"> <a href="https://gmail.com/"><img src="imagenes/gmail-logo.jpg" alt="icono gmail" class="rrss"> tomas.gomez@likeyoube.com </a>
+              </div>
+              <div class="col"> <a href="https://whatsapp.com/"> <img src="imagenes/WhatsApp.svg.png" alt="whatsapp" class="rrss"> Tomas Gomez: 3425275569 </a>
+              </div>
+          </div>
+      </div>
+  </footer>
 
 
 
