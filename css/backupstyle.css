@@ -4,16 +4,6 @@
 }
 
 
-.buttons {
-    background-color: #728f9d;
-    border: none;
-}
-
-.buttons:hover {
-    background-color: #8dafc0;
-}
-
-
 section {
     padding-top: 30px;
     padding-bottom: 35px;
