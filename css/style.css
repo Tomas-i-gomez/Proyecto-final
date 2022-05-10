@@ -45,6 +45,10 @@ p {
   width: 75px;
 }
 
+.logo {
+  width: 15em;
+}
+
 .proyect-images {
   align-items: center;
   width: 300px;
