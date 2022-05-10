@@ -159,7 +159,7 @@ nav {
   }
 }
 .typing-demo-proyects {
-  width: 11em;
+  width: 11.5em;
   animation: typing 2s steps(20), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
