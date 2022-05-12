@@ -46,7 +46,7 @@ p {
 }
 
 .logo {
-  width: 15em;
+  width: 5em;
 }
 
 .proyect-images {
@@ -276,128 +276,147 @@ td {
   color: white;
 }
 
-/* FORMULARIOS */
-.formulario {
-  height: 100vh;
-  background: #cfd8dd;
-  font-family: "Balsamiq Sans", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.card {
-  width: 70%;
-  padding: 30px 90px 90px 90px;
-  border: 6px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 50px;
+/* BOOSTRAP HEAD*/
+.masthead {
+  padding: 3rem 0 7rem;
   position: relative;
+  background-color: #413f3f;
+  background-image: url(https://startbootstrap.com/assets/img/overlay.svg), linear-gradient(45deg, #393650 0%, #1b1919 100%);
+  background-size: cover;
+  z-index: 0;
 }
 
-.card h2 {
-  color: rgba(0, 0, 0, 0.3);
-  font-size: 60px;
-  text-transform: uppercase;
-}
-
-.card .row {
-  position: relative;
-  width: 100%;
-  display: grid;
-  grid: auto/auto auto;
-  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-  grid-gap: 30px;
-}
-
-.card .row .col {
-  position: relative;
-  width: 100%;
-  margin: 30px 20px 40px 0;
-  transition: 0.5s;
-}
-
-.card .row .form-group {
-  position: relative;
-  width: 100%;
-  height: 40px;
-  color: #728f9d;
-}
-
-.card .row .form-group input,
-.card .row .form-group textarea {
+.masthead svg.wave {
   position: absolute;
-  width: 90%;
-  height: 100%;
-  background: transparent;
-  outline: none;
-  font-size: 24px;
-  padding: 10px 0 10px 20px;
-  border: 5px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
-  color: #161414;
-  border-radius: 50px;
+  bottom: -1px;
+  left: 0;
 }
 
-.card .row .form-group label {
-  line-height: 40px;
-  color: #0f0c0c;
-  font-size: 24px;
-  margin: 0 0 0 30px;
-  display: block;
-  pointer-events: none;
-}
-
-.row .col:nth-child(6) {
-  margin-top: 64px;
-}
-
-.card .row .form-group input:focus,
-.card .row .form-group textarea:focus {
-  border: 5px solid #0c0a0a;
-  transition: all 0.5s;
-}
-
-.card .row input[type=submit] {
-  border: 5px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  height: 100%;
-  width: 50%;
-  cursor: pointer;
-  outline: none;
-  background: transparent;
-  text-transform: uppercase;
-  color: #130f0f;
-  line-height: 45px;
-  font-size: 20px;
+.masthead h1 {
+  color: #fff;
   font-weight: 700;
-  border-radius: 45px;
-  transition: all 0.4s;
+  font-size: 2rem;
+  line-height: 1.1;
+  z-index: 1;
 }
 
-.card .row input[type=submit]:hover {
-  border: 5px solid rgb(15, 12, 12);
-  color: #272222;
-  transition: all 0.4s;
+.masthead h2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  z-index: 1;
+  font-size: 1.2rem;
 }
 
-@media screen and (max-width: 900px) {
-  .card .row {
-    grid-template-columns: repeat(auto-fit, minmax(70%, 1fr));
+.masthead a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
+  z-index: 1;
+}
+
+.masthead a:hover {
+  color: #fff;
+}
+
+.masthead a:active {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .masthead h1 {
+    font-size: 3rem;
   }
 
-  .card {
-    padding: 20px;
+  .masthead h2 {
+    font-size: 1.5rem;
   }
+}
+.masthead .masthead-cards {
+  position: relative;
+  z-index: 1;
+}
 
-  .card h2 {
-    font-size: 30px;
-  }
+.masthead .masthead-cards .shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
 
-  .card .row input[type=submit] {
-    width: 100%;
+.masthead .masthead-cards .card {
+  opacity: 1;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  color: #212529;
+  transition: 0.15s all;
+}
+
+.masthead .masthead-cards .card:hover {
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.masthead .masthead-cards .card:active {
+  margin-top: inherit;
+  margin-bottom: inherit;
+}
+
+.masthead .masthead-cards .card.border-bottom-blue:hover {
+  color: #2092ed;
+}
+
+.masthead .masthead-cards .card.border-bottom-green:hover {
+  color: #28a745;
+}
+
+.masthead .masthead-cards .card.border-bottom-red:hover {
+  color: #dd3d31;
+}
+
+.masthead .masthead-cards .card.border-bottom-yellow:hover {
+  color: #ffc107;
+}
+
+.masthead-page {
+  padding: 1rem 0 4rem;
+}
+
+@media (min-width: 992px) {
+  .masthead-page h1 {
+    font-size: 2.5rem;
   }
+}
+.border-bottom-yellow {
+  border-color: #ffc107 !important;
+}
+
+.border-bottom-red {
+  border-color: #dd3d31 !important;
+}
+
+.border-bottom-blue {
+  border-color: #2092ed !important;
+}
+
+.border-bottom-green {
+  border-color: #28a745 !important;
+}
+
+.border-bottom-blue, .border-bottom-green, .border-bottom-red, .border-bottom-yellow {
+  border-bottom: 0.4rem solid !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 2rem 1.5rem -1.5rem rgba(33, 37, 41, 0.15), 0 0 1.5rem 0.5rem rgba(33, 37, 41, 0.05) !important;
+}
+
+.border-0 {
+  border: 0 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
