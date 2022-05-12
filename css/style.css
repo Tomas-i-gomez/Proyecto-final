@@ -54,6 +54,7 @@ p {
   width: 300px;
   transition: width 0.5s;
   cursor: hand;
+  padding-bottom: 0.5em;
 }
 
 .proyect-images:hover {
