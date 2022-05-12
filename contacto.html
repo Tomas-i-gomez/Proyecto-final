@@ -10,6 +10,10 @@
         href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:ital,wght@1,300&display=swap"
         rel="stylesheet"
     />
+    <!--FORM-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta name="description" content="Somos una empresa familiar que tiene como objetivo la implementación de sitios de e-commerce para la comercialización de los productos de cualquier comercio que decida iniciar su negocio virtual con el objetivo de tener presencia en la WEB y en el mediano plazo sea un canal que potencie la venta. Ya contamos con dos años de experiencia y actualmente administramos tres e-commerces en productivo. El tiempo de implementacion no suele tardar mas de 2 meses y ofrecemos un sistema de integración con el sistema de gestión del cliente para que todo quede automatizado y evitar posibles errores una vez en productivo">
     <meta name="keywords" content="e-commerce, venta en linea, como vender en linea, pagina web, desarrollar e-commerce, venta por internet, venta online, e-commerce argentina">
     <meta property= “og:title” content="Like You Be">
@@ -18,7 +22,7 @@
     <link rel="shortcut icon" href="imagenes/logochico.jpeg" type="image/x-icon">
     <title>Like You Be | Contacto</title>
     </head>
-    <body>
+    <body class="body">
       <header>
         <!--Lista horizontal-->
             <nav class="navbar navbar-expand-lg navbar-light bg-black">
@@ -67,7 +71,70 @@
                 </div>
             </nav>
     </header>
+
+    <!--FORM-->
+    <div class="container contact">
+      <div class="row">
+          <div class="col-md-3">
+              <div class="contact-info">
+                  <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+                  <h2>Completá el formulario</h2>
+                  <h4>Dentro de las próximas 24-48hs nos estaremos comunicando con usted.</h4>
+                  <a href="index.html"><img class="logo-footer"
+                    src="./imagenes/logochico.jpeg"
+                    alt="logo"
+                /></a>
+                <div class="rrss-form link"> <a class="text-black" href="https://gmail.com/"><img src="imagenes/gmail-logo.jpg" alt="icono gmail" class="col"> tomas.gomez@likeyoube.com </a>
+                </div>
+                <div class="rrss-form link"> <a class="text-black" href="https://whatsapp.com/"> <img src="imagenes/WhatsApp.svg.png" alt="whatsapp" class="col">Tomas Gomez: 3425275569 </a>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-9">
+              <div class="contact-form">
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="fname">Nombre:</label>
+                    <div class="col-sm-10">          
+                      <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="lname">Apellido:</label>
+                    <div class="col-sm-10">          
+                      <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="control-label col-sm-2" for="comment">Comentario:</label>
+                    <div class="col-sm-10">
+                      <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">        
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" class="btn btn-default">Enviar</button>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
     <!-- Acá iria el formulario-->
+    <!--
     <section class="formulario">
     <div class="card">
         <h1 class="typing-demo-form">Completá el Formulario</h1>
@@ -112,27 +179,26 @@
         </div>
       </div>
     </section>
+-->
 
 
-
-
-    <footer>
-      <!-- Aca nuevamente iria mi logo-->
-          <h2 class="title-footer">Contactanos</h2>
-      <div class="container title">
-          <div class="row">
-              <div class="col"><h3><a href="index.html"><img class="logo-footer"
-                  src="./imagenes/logochico.jpeg"
-                  alt="logo"
-              /></a></h3>
-              </div>
-              <div class="col"> <a href="https://gmail.com/"><img src="imagenes/gmail-logo.jpg" alt="icono gmail" class="rrss"> tomas.gomez@likeyoube.com </a>
-              </div>
-              <div class="col"> <a href="https://whatsapp.com/"> <img src="imagenes/WhatsApp.svg.png" alt="whatsapp" class="rrss"> Tomas Gomez: 3425275569 </a>
-              </div>
+<!--<footer>
+  <!-- Aca nuevamente iria mi logo-->
+      <!--<h2 class="title-footer">Contactanos</h2>
+  <div class="container title">
+      <div class="row">
+          <div class="col"><h3><a href="index.html"><img class="logo-footer"
+              src="./imagenes/logochico.jpeg"
+              alt="logo"
+          /></a></h3>
+          </div>
+          <div class="col"> <a href="https://gmail.com/"><img src="imagenes/gmail-logo.jpg" alt="icono gmail" class="rrss"> tomas.gomez@likeyoube.com </a>
+          </div>
+          <div class="col"> <a href="https://whatsapp.com/"> <img src="imagenes/WhatsApp.svg.png" alt="whatsapp" class="rrss"> Tomas Gomez: 3425275569 </a>
           </div>
       </div>
-  </footer>
+  </div>
+</footer> -->
 
 
 

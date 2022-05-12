@@ -36,7 +36,7 @@ p {
     font-weight: bold;
     font-size: x-large;
     font-family: "BlinkMacSystemFont", "Segoe UI", "Roboto, Oxygen, Ubuntu, Cantarell", "Open Sans", "Helvetica Neue", sans-serif;
-    color: black;
+    color: white;
 }
 .image-logo {
     width: 300px;
@@ -45,8 +45,12 @@ p {
     width: 75px;
 }
 
+.rrss-form {
+  width: 6em;
+}
+
 .logo {
-    width: 5em;
+  width: 5em;
 }
 
 .proyect-images {
@@ -143,6 +147,7 @@ nav {
 }
   .typing-demo {
     width: 200px;
+    color: white;
     animation: typing 2s steps(10), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -165,28 +170,7 @@ nav {
 
   .typing-demo-proyects {
     width: 11.5em;
-    animation: typing 2s steps(20), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid;
-    font-family: monospace;
-    padding: 20px;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
-
-  .typing-demo-form {
-    width: 13em;
+    color: white;
     animation: typing 2s steps(20), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -208,7 +192,9 @@ nav {
   }
 
 .configuration-container {
-    background-image: url(https://i.ibb.co/MPWbhFv/fondo-marmol.jpg);
+    /*background-image: url(https://i.ibb.co/MPWbhFv/fondo-marmol.jpg);*/
+    background-color:  #35375a;
+    color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -217,7 +203,7 @@ nav {
 .configuration-title {
     padding-bottom: 10px;
     text-align: center;
-    color: #000000;
+    color: #eee6e6;
     font-weight: bold;
     font-size: xx-large;
     font-family: "BlinkMacSystemFont", "Segoe UI",
@@ -241,7 +227,6 @@ nav {
 .trabajos {
     padding-top: 30px;
     padding-bottom: 35px;
-    background-color: #cfd8dd;
 }
 td {
     border: 2.5px solid black;
@@ -261,7 +246,8 @@ td {
 
 /* FOOTER */
 .logo-footer {
-    width: 150px;
+    width: 8em;
+    position:sticky;
 }
 
 .title-footer {
@@ -550,7 +536,52 @@ a:hover, a:focus {
 .card[data-color="orange"] .category {
   color: #e95e37;
 }
+/*FORM*/
+.body{
+  background-color: #35375a;
+}
+.contact{
+  padding: 4%;
+  height: 400px;
+}
+.col-md-3{
+  background: #ff9b00;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+  margin-top:10%;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:600;
+}
+.contact-form button{
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus{
+  box-shadow:none;
+}
 
-
-
-
+.link {
+  color: #eee6e6;
+    font-weight: bold;
+    font-family: "BlinkMacSystemFont", "Segoe UI",
+    "Roboto, Oxygen, Ubuntu, Cantarell", "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
